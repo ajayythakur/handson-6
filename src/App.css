@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  background-color: darkblue;
+  color: white;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 30px;
+}
+
+.active-class {
+  color: orange;
+  text-decoration: none;
+}
+
+.notactive-class {
+  color: white;
+  text-decoration: none;
+}
+
+#heading {
+  margin-left: 50px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#ansbtn {
+  margin-left: 55%;
+  border: none;
+  height: 31px;
+  width: 130px;
+  font-family: cursive;
+  background-image: linear-gradient(360deg, grey, white);
+  border-radius: 5px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+table {
+  border: 1px solid grey;
+  text-align: center;
+  margin-top: 100px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.studentContainer {
+  margin: 30px auto;
+  display: flex;
+  height: 50vh;
+  width: 50vw;
+  border: 2px solid white;
+  box-shadow: -5px 5px 5px grey;
+  background-color: aquamarine;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  font-weight: 400;
+}
+
+.inputbox {
+  margin-left: 50px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.ib2 {
+  margin-left: 64px;
+
+}
+
+.ib3 {
+  margin-left: 43px;
+
+}
+
+.ib4 {
+  margin-left: 53px;
+}
+
+.btns {
+  margin: 0% 10%;
+  border-radius: 5px;
+  border: 1px solid black
+}
+
+.cancel:hover {
+  transition: 0.3s ease-in-out;
+  background-color: red;
+  font-size: 19px;
+  color: white;
+}
+
+.submit:hover {
+  background-color: green;
+  color: white;
+  font-size: 19px;
+  transition: 0.3s ease-in-out;
+
+
+
 }
